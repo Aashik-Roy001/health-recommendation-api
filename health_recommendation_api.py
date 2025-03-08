@@ -13,7 +13,7 @@ app = FastAPI()
 s3_client = boto3.client("s3")
 
 # 🔹 S3 Bucket and Model File Key (Directly specified)
-S3_BUCKET_NAME = "your-bucket-name"  # 🔴 Replace with actual S3 bucket name
+S3_BUCKET_NAME = "healthrecommendationbucket"  # 🔴 Replace with actual S3 bucket name
 S3_MODEL_KEY = "health_recommendation_model.pkl"  # 🔴 Replace with actual model file name
 
 # Load Model from S3
