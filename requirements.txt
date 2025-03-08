@@ -1,5 +1,6 @@
-flask
-gunicorn
-scikit-learn  # Required for RandomForestClassifier
-numpy         # Required for numerical operations
-pandas        # Required for handling data
+fastapi==0.95.0
+uvicorn==0.22.0
+boto3==1.28.57
+pandas==1.5.3
+numpy==1.23.5
+scikit-learn==1.2.2
